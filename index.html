@@ -21,6 +21,7 @@
       </a>
       <nav aria-label="Navegacion principal">
         <a href="#torneos">Torneos</a>
+        <a href="#copa-febres">Copa Febres</a>
         <a href="#datos">Datos</a>
         <a href="#social">Social</a>
         <a href="#streaming">Streaming</a>
@@ -70,7 +71,13 @@
       <section class="section band" id="torneos">
         <div class="section-head">
           <p class="eyebrow">Producto inicial</p>
-          <h2>Todo campeonato con identidad de liga profesional</h2>
+          <h2>Una plataforma madre para manejar varios torneos a la vez</h2>
+          <p>
+            El admin funciona como central general: cada organizador puede
+            crear torneos, abrir categorias, registrar equipos, cargar
+            resultados y publicar contenido sin mezclar la operacion de una
+            copa con otra.
+          </p>
         </div>
         <div class="feature-grid">
           <article>
@@ -93,6 +100,121 @@
             <h3>Contenido deportivo</h3>
             <p>Previas, cronicas, encuestas, jugador de la fecha y resumenes.</p>
           </article>
+        </div>
+      </section>
+
+      <section class="section tournament" id="copa-febres">
+        <div class="section-head">
+          <p class="eyebrow">Torneo piloto</p>
+          <h2>Copa Febres Cordero</h2>
+          <p>
+            Demo inicial para probar la plataforma con un campeonato de indor
+            local: 12 equipos, fase de grupos, eliminatorias, tabla en vivo,
+            goleadores, sanciones y contenido social por fecha.
+          </p>
+        </div>
+
+        <div class="tournament-layout">
+          <article class="tournament-card main-card">
+            <div class="card-kicker">Estado del torneo</div>
+            <h3>Apertura barrial 2026</h3>
+            <div class="tournament-meta">
+              <span>Febres Cordero</span>
+              <span>Indor futbol</span>
+              <span>12 equipos</span>
+              <span>3 grupos</span>
+            </div>
+            <div class="next-match">
+              <span>Proximo partido</span>
+              <strong>Los del Malecon vs Union FC</strong>
+              <small>Sabado 20:00 | Cancha Central</small>
+            </div>
+          </article>
+
+          <article class="tournament-card">
+            <div class="card-kicker">Formato</div>
+            <h3>Grupos + playoffs</h3>
+            <p>
+              Clasifican los dos primeros de cada grupo y los dos mejores
+              terceros. Luego cuartos, semifinal y final.
+            </p>
+          </article>
+
+          <article class="tournament-card">
+            <div class="card-kicker">Contenido</div>
+            <h3>Fecha a fecha</h3>
+            <p>
+              Jugador de la fecha, gol destacado, previa del clasico y resumen
+              vertical para redes.
+            </p>
+          </article>
+        </div>
+
+        <div class="dashboard-grid" aria-label="Datos de prueba Copa Febres Cordero">
+          <section class="data-panel">
+            <div class="panel-title">
+              <span>Grupo A</span>
+              <strong>Tabla</strong>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Equipo</th>
+                  <th>Pts</th>
+                  <th>DG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Los del Malecon</td>
+                  <td>9</td>
+                  <td>+8</td>
+                </tr>
+                <tr>
+                  <td>Union FC</td>
+                  <td>6</td>
+                  <td>+3</td>
+                </tr>
+                <tr>
+                  <td>Astillero Norte</td>
+                  <td>3</td>
+                  <td>-1</td>
+                </tr>
+                <tr>
+                  <td>La 17 Sport</td>
+                  <td>0</td>
+                  <td>-10</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section class="data-panel">
+            <div class="panel-title">
+              <span>Ranking</span>
+              <strong>Goleadores</strong>
+            </div>
+            <ol class="scorers">
+              <li><span>Kevin Andrade</span><strong>8</strong></li>
+              <li><span>Mateo Quiroz</span><strong>6</strong></li>
+              <li><span>Joel Medina</span><strong>5</strong></li>
+              <li><span>Danny Vera</span><strong>5</strong></li>
+            </ol>
+          </section>
+
+          <section class="data-panel">
+            <div class="panel-title">
+              <span>Admin</span>
+              <strong>Modulos activos</strong>
+            </div>
+            <ul class="module-list">
+              <li>Registro de equipos</li>
+              <li>Plantillas y carnets</li>
+              <li>Fixture por grupo</li>
+              <li>Resultados y actas</li>
+              <li>Disciplina y sanciones</li>
+            </ul>
+          </section>
         </div>
       </section>
 
