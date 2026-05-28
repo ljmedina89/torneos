@@ -343,7 +343,7 @@ h3 {
   align-content: space-between;
   padding: 18px;
   border-top: 4px solid var(--red);
-  background: var(--panel;
+  background: var(--panel);
 }
 
 .timeline strong {
